@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Horarios</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header>
+    <div class="header__titulo">
+        <h1>Carrera:Ingenieria de Sistemas</h1>
+    </div>
+
+    <div class="header__datos_curso">
+        <div class="datos_curso__buscar">
+            <label for="cursoNombre">Nombre Curso:</label>
+            <input list="materias" id="cursoNombre" name="cursoNombre">
+            <datalist id="materias">
+                <option value="Planeación de Sistemas Informáticos"> </option>
+                <option value="Programación Orientada a Objetos"> </option>
+                <option value="Sistemas Operativos"> </option>
+                <option value="Programación de Dispositivos"> </option>
+                <option value="Motores de Bases de Datos"> </option>
+            </datalist>
+        </div>
+        <div class="datos_curso__info">
+            <!--        Datos del curso-->
+        </div>
+    </div>
+    <!--    Btn para ver los estudiantes y  horarios del curso-->
+    <button class="header__btn">
+        Ver Inscritos
+    </button>
+
+</header>
+
+<main>
+    <div class="main__titulo">
+        <h2>Horario</h2>
+    </div>
+    <div class="main__list-estds">
+        <table class="list-estds__table">
+            <thead >
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <!-- Contenido de la lista -->
+            </tbody>
+        </table>
+    
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer__titulo">
+        <h3>Universidad CampusLand</h3>
+    </div>
+    <div class="footer__info">
+        <p>Facultad de Ingenieria</p>
+        <p>Programa de Ingenieria de Software</p>
+        <p>2023</p>
+    </div>
+</footer>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>

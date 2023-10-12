@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 400;
+}
+header{
+    height: auto;
+    background-color: #fff;
+    padding: 1.25rem;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.header__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+
+}
+
+.header__datos_curso{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+    height: 100%;
+    padding: 0.3125rem;
+    margin: 0.9375rem;
+    align-items: center;
+    align-content: center;  
+}
+
+.datos_curso__buscar{
+    height: 3.125rem;
+    
+    align-items: center;
+    align-content: center;
+}
+.datos_curso__buscar label{
+    height: 100%;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+
+}
+.datos_curso__buscar input{
+    width: 300px;
+    height: 100%;
+    padding: 0.625rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 0.3125rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+}
+
+.datos_curso__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    padding: 0.625rem;
+    margin: 0.400rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+
+    
+}
+
+.header__btn{
+    display: flex;
+    padding: 0.625rem;
+    margin: 0.9375rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border-radius: 0.3125rem;
+    border: 1px solid #070707;
+    cursor: pointer;
+}
+.header__btn:hover{
+    background-color: #070707;
+    color: #fff;
+
+}
+
+.main__titulo{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin: 0.9375rem;
+}
+
+.main__list-estds{
+    width: 98.5%;
+    height: auto;
+    margin: 0.9375rem;
+    padding: 0.625rem;
+}
+
+.list-estds__table{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+}
+.list-estds__table tbody{
+    width: 90%;
+    height: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin: 4px;
+
+}
+.list-estds__table tbody tr{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #e5e5e5;
+
+}
+.list-estds__table tbody tr td:nth-child(1){
+    width: 30%;
+    height: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #e5e5e5;
+    background-color: #fff;
+    padding: 0.625rem;
+    margin: 0.9375rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+
+.list-estds__table tbody tr ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    cursor: pointer;
+    
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+}
